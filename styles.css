@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+ .city_image h1{
+    padding: 4px 8px ;
+    border-radius: 8px ;
+    background-color: #A8DADC;
+}
+.city_image h2{
+    font-size: 18px ;
+   padding: 4px 8px ;
+    border-radius: 8px ;
+    background-color:#457B9D ; 
+}
+.city_image{
+     color: white ;
+    height: 300px ;
+    background: url(https://images.livemint.com/img/2019/12/26/600x338/ranchi_1577382578748.jpg);
+   display: flex ;
+   flex-direction: column ;
+   justify-content: center ;
+   align-items: center ;
+  margin: 0px ;
+   
+   
+}
+.activities{
+    background-color: #A8DADC ;
+    margin: none  ;
+    padding: 10px ;
+}
+.activities h3 {
+    margin: 0 ;
+    color: #1D3557 ;
+    font-weight: bold ;
+    font-size: 20px ;
+    
+}
+.a_b{
+    margin-top: 10px ;
+    display: flex ;
+    justify-content: space-around ;
+}
+.tar{
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+.tar img{
+    border-radius: 50% ;
+    
+}
+.tar h3 {
+      margin-top: 10px ;
+    color: #1D3557 ;
+    font-weight: bold ;
+    font-size: 13px ;
+}
+.tar h4 {
+    margin-top: 10px ;
+    color: #457B9D ;
+    font-weight: bold ;
+    font-size: 10px ; 
+}
+.guide{
+    padding: 20px ;
+    display: flex ;
+    justify-content: center ;
+    border-bottom:  10px solid #1D3557 ;
+    background-color: #A8DADC ;
+    margin: 50px 100px ;
+    border-radius: 15px ;
+}
+.guide div{
+    width: 50%;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-around ;
+    font-style: italic ;
+}
+.guide img{
+    width: 50% ;
+    height: 200px ;
+    border-radius: 10% ;
+    
+}
